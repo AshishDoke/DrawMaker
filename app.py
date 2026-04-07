@@ -1,7 +1,6 @@
 """
-TT Cybage Internal Draw Maker – Streamlit UI
-Run with:  streamlit run app.py
-"""
+Draw Maker – Streamlit UI
+Run with:  streamlit run app.py"""
 
 import io
 import streamlit as st
@@ -16,8 +15,7 @@ from draw_maker import (
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="TT Cybage Draw Maker",
-    page_icon="🏓",
+    page_title="Draw Maker",
     layout="wide",
 )
 
@@ -53,7 +51,7 @@ st.markdown(
 st.markdown(
     """
     <div class="main-header">
-        <h1>🏓 TT Cybage Internal Draw Maker</h1>
+        <h1>Draw Maker</h1>
         <p>Upload the Self Nomination file → Review analysis → Configure draw → Download Excel</p>
     </div>
     """,
